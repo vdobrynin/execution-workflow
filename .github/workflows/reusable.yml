@@ -4,7 +4,7 @@ on:
     inputs:
       artifact-name:
         description: The name of the deployable artifact files
-        required: true
+        required: false
         default: dist
         type: string
 jobs:
